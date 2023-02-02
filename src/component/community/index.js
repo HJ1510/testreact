@@ -5,7 +5,7 @@ function Community() {
     <Layout>
       <div>
         <h1>Community</h1>
-        <p>커뮤니티</p>
+        <div>hello community</div>
       </div>
     </Layout>
   );
