@@ -1,9 +1,16 @@
+import MainImg from "../assets/image/tmpheader2.jpg";
+import "../assets/css/component/Header.css";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
-    <>
-      <h1>Header</h1>
-      <p>Header</p>
-    </>
+    <div className="Header">
+      <div>
+        <Link to={"/"}>
+          <img src={MainImg} className="Header-logo" alt="logo" />
+        </Link>
+      </div>
+    </div>
   );
 }
 
